@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Newfor Testing Suite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/test_style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Newfor Testing Suite</h1>
+      <div class="row">
+        <div class="span3">Conection Status:</div>
+        <div class="span9" id="status">undefined</div>
+      </div>
+      <div class="row">
+        <div class="span3">Connected:</div>
+        <div class="span9" id="connected">false</div>
+      </div>
+      <h3>last 'package'</h3>
+      <div class="row">
+        <div class="span3">JSON:</div>
+        <div class="span9" id="json"></div>
+      </div>
+      <div class="row">
+        <div class="span3">code:</div>
+        <div class="span9" id="code"></div>
+      </div>
+      <div class="row">
+        <div class="span3">timestamp:</div>
+        <div class="span9" id="timestamp"></div>
+      </div>
+      <div class="row">
+        <div class="span3">subs as block:</div>
+        <div class="span4 block-subs" id="current-text-as-block">
+        </div>
+      </div>
+      <div class="row">
+        <div class="span3">subs as two lines scroll</div>
+        <div class="span4" id="scroll-subs">
+          <div id="line1"></div>
+          <div id="line0"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span3">subs at text</div>
+        <div class="span4" id="flow-txt">
+          some text...
+          <span id="flux-txt">some more text</span>
+        </div>
+      </div>
+      <h3>last 'build'</h3>
+      <div id="list-rows"></div>
+    </div>
+    <script src="http://js.pusher.com/2.0/pusher.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>
+    <script src="js/Newfor.js"></script>
+  </body>
+</html>

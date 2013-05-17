@@ -1,0 +1,11 @@
+.block-subs {
+	text-align: center;
+}
+
+#current-text-as-block, #scroll-subs {
+	height: 50px
+}
+
+#json {
+	height: 70px
+}
